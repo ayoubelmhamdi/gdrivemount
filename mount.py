@@ -3,15 +3,7 @@ from google.colab import drive
 
 env['CLOUDSDK_CONFIG']  = '/content/.config'
 try:
-    drive.mount('/root/drive/')
+    drive.mount('/root/drive1/')
 
 except NameError:
-    drive.mount("/root/drive/", force_remount=True)
-
-
-# try:
-#     mountpoint = "/content/drive/"
-#     user = 'root'
-# except NameError:    
-#     mountpoint = '/content/drive/'
-#     user = 'root'
+    drive.mount(/root/drive1/, force_remount=True)
