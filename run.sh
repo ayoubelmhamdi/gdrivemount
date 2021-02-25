@@ -14,7 +14,7 @@ echo "try:"                                                  >> mount.py
 echo "    drive.mount('/root/$var/')"                        >> mount.py
 echo                                                         >> mount.py
 echo "except NameError:"                                     >> mount.py
-echo "    drive.mount("/root/$var/", force_remount=True)"    >> mount.py
+echo "    drive.mount('/root/$var/', force_remount=True)"    >> mount.py
 
 
 
