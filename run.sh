@@ -4,7 +4,7 @@
 runuser -l $user -c "yes | python3 -m pip install --user google-colab"  > /dev/null 2>&1
 # runuser -l $user -c "echo \"$verfiy\"|python3 $HOME/gdrivemount/mount.py"
 
-var="drive2"
+var="drive"
 
 echo "from os import environ as env"                         >  mount.py
 echo "from google.colab import drive as $var"                        >> mount.py
